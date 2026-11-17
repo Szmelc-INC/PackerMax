@@ -24,7 +24,7 @@
           meta = {
             description = "Compress, split and extract archives from the CLI";
             homepage = "https://github.com/Szmelc-INC/PackerMax";
-            license = pkgs.lib.licenses.mit;
+            license = pkgs.lib.licenses.gpl3Only;
             mainProgram = "pkmax";
             platforms = pkgs.lib.platforms.linux;
           };
